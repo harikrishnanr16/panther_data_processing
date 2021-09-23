@@ -34,7 +34,6 @@ d=rest["result"].explode().reset_index()
 
 
 
-IndexError
 def get_data(x):
     try:
         return(x["term"].values[0],x["term"].values[1],x["input_list"].values[2])
